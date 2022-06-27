@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(68, 23, 23);
+  color: white;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  margin: 20px;
+  margin-left: 70%;
+  width: 250px;
+  border-radius: 6px;
+  height: 40px;
+  padding: 6px;
+  border: none;
+  outline: none;
+  color: rgb(38, 42, 46);
+}
+
+img {
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.box {
+  height: 500px;
+  width: 275px;
+  border-radius: 7px;
+  padding: 0;
+  background-color: rgb(11, 16, 20);
+}
+
+.box:hover {
+  box-shadow: -2px 8px 27px 8px #000000;
+  background-color: black;
+  color: #dddddd;
+}
+
+.box p {
+  padding: 10px;
+}
+
+.row {
+  gap: 20px;
+}
